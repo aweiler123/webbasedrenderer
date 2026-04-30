@@ -7,3 +7,9 @@ At the top of the page will be a button that says "upload". Clicking this button
 
 The server will take a json file of details about the image, and whether it is raycasted or raytraced. The server will return the image if it succeeded and a 
 return status.
+
+Tech stack
+==========
+Use ASP.NET and Blazor for the website.
+Use C++ for the backend.
+Communication over gRPC
