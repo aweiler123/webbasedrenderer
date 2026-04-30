@@ -1,0 +1,9 @@
+This should run as a client/server model. The technology stack is yet to be decided. The website will have a login page that prompts for a username and password or 
+account creation. Resetting password will be shown later. It will have the classical image of a teapot in the background. Upon logging in, the user will be 
+presented with single page that will show all of the images they have rendered. The page will be a datagrid-type thing. In order, the columns will be name of the image, 
+filename, render type (raycasting vs raytracing), sucess or error message, link that returns the image, render time, and timestamp for when the render occured.
+
+At the top of the page will be a button that says "upload". Clicking this button will bring up a dialog to select a script file of how the image should be laid out.
+
+The server will take a json file of details about the image, and whether it is raycasted or raytraced. The server will return the image if it succeeded and a 
+return status.
